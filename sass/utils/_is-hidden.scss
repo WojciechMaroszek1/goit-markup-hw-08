@@ -1,0 +1,8 @@
+@import "../utils/vars";
+
+.is-hidden {
+	pointer-events: none;
+	visibility: hidden;
+	opacity: 0;
+	transform: scale(0);
+}

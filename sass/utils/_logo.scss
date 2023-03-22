@@ -1,0 +1,27 @@
+@import "../utils/vars";
+
+.logo {
+	font-family: $logoFont;
+	text-decoration: none;
+	font-weight: 700;
+	font-size: 26px;
+	line-height: 1.19;
+	color: $mainBlueColor;
+	letter-spacing: 0.03em;
+	display: flex;
+	align-items: center;
+
+	&:focus {
+		outline: 2px dashed $mainBlueColor;
+	}
+}
+
+.logo--navigation-color {
+	color: $footerStudioColor;
+}
+.logo--footer-margin {
+	margin-bottom: 20px;
+}
+.logo--footer-color {
+	color: $mainBackgroundColor;
+}

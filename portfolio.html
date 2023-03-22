@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="witdh=device-width" />
+		<title>goit-markup-hw-07 Wojciech Maroszek</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="css/modern-normalize.css" />
+		<link rel="stylesheet" href="css/main.css" />
+	</head>
+	<body>
+		<header class="navigation">
+			<div class="container navigation__container">
+				<nav class="navigation__header">
+					<a class="logo" href="./index.html">
+						<span>Web</span>
+						<span class="logo--navigation-color">Studio</span>
+					</a>
+					<ul class="navigation__menu-list">
+						<li><a class="navigation__menu-text navigation__menu-text--center" href="./index.html">Agencja</a></li>
+						<li>
+							<a class="navigation__menu-text navigation__menu-text--current" href="./portfolio.html">Portfolio</a>
+						</li>
+						<li><a class="navigation__menu-text navigation__menu-text--center" href="#">Kontakty</a></li>
+					</ul>
+				</nav>
+				<ul class="navigation__contact-list">
+					<li>
+						<a class="navigation__contact-text" href="mailto:info@devstudio.com">
+							<svg class="navigation__contact-icon-envelope">
+								<use href="./images/icons.svg#icon-envelope"></use>
+							</svg>
+							info@devstudio.com
+						</a>
+					</li>
+					<li>
+						<a class="navigation__contact-text" href="tel:48111111111">
+							<svg class="navigation__contact-icon-smartphone">
+								<use href="./images/icons.svg#icon-smartphone"></use>
+							</svg>
+							+48 111 111 111
+						</a>
+					</li>
+				</ul>
+			</div>
+		</header>
+		<main>
+			<section>
+				<div class="container">
+					<h1 class="visually-hidden">Portfolio</h1>
+					<ul class="portfolio-filters">
+						<li><button class="portfolio-filters__btn" type="button">Wszystkie</button></li>
+						<li><button class="portfolio-filters__btn" type="button">Strony</button></li>
+						<li><button class="portfolio-filters__btn" type="button">Aplikacje</button></li>
+						<li><button class="portfolio-filters__btn" type="button">Dizajn</button></li>
+						<li><button class="portfolio-filters__btn" type="button">Marketing</button></li>
+					</ul>
+					<ul class="portfolio-gallery">
+						<li>
+							<a class="portfolio-gallery__images-box" href="#">
+								<div class="portfolio-gallery__overlay-box">
+									<img src="./images/img-portfolio1.jpg" alt="image of laptop" width="370" height="294" />
+									<div class="portfolio-gallery__overlay">
+										<p>
+											Technocrack jest popularną platformą wykorzystywaną do rozpowszechniania koronawirusa. Firmy
+											wykorzystują tę platformę do celów szpiegowskich i ataków na niezabezpieczone serwery konkurencji
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-gallery__text-box">
+									<h3 class="portfolio-gallery__tittle">Technocrack</h3>
+									<p class="portfolio-gallery__text">Strona internetowa</p>
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a class="portfolio-gallery__images-box" href="#">
+								<div class="portfolio-gallery__overlay-box">
+									<img src="./images/img-portfolio2.jpg" alt="image of basketball players" width="370" height="294" />
+									<div class="portfolio-gallery__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo voluptate harum possimus non
+											sint architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, porro! Similique
+											neque architecto eaque ab.
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-gallery__text-box">
+									<h3 class="portfolio-gallery__tittle">Grafika New Orlean vs Golden Star</h3>
+									<p class="portfolio-gallery__text">Dizajn</p>
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a class="portfolio-gallery__images-box" href="#">
+								<div class="portfolio-gallery__overlay-box">
+									<img src="./images/img-portfolio3.jpg" alt="image of restaurant logotype" width="370" height="294" />
+									<div class="portfolio-gallery__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo voluptate harum possimus non
+											sint architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, porro! Similique
+											neque architecto eaque ab.
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-gallery__text-box">
+									<h3 class="portfolio-gallery__tittle">Restauracja Seafood</h3>
+									<p class="portfolio-gallery__text">Aplikacja</p>
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a class="portfolio-gallery__images-box" href="#">
+								<div class="portfolio-gallery__overlay-box">
+									<img src="./images/img-portfolio4.jpg" alt="image of headphones" width="370" height="294" />
+									<div class="portfolio-gallery__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo voluptate harum possimus non
+											sint architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, porro! Similique
+											neque architecto eaque ab.
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-gallery__text-box">
+									<h3 class="portfolio-gallery__tittle">Projekt Prime</h3>
+									<p class="portfolio-gallery__text">Marketing</p>
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a class="portfolio-gallery__images-box" href="#">
+								<div class="portfolio-gallery__overlay-box">
+									<img src="./images/img-portfolio5.jpg" alt="image of boxes" width="370" height="294" />
+									<div class="portfolio-gallery__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo voluptate harum possimus non
+											sint architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, porro! Similique
+											neque architecto eaque ab.
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-gallery__text-box">
+									<h3 class="portfolio-gallery__tittle">Projekt boxes</h3>
+									<p class="portfolio-gallery__text">Aplikacja</p>
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a class="portfolio-gallery__images-box" href="#">
+								<div class="portfolio-gallery__overlay-box">
+									<img src="./images/img-portfolio6.jpg" alt="image of monitor" width="370" height="294" />
+									<div class="portfolio-gallery__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo voluptate harum possimus non
+											sint architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, porro! Similique
+											neque architecto eaque ab.
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-gallery__text-box">
+									<h3 class="portfolio-gallery__tittle">Inspiration has no Borders</h3>
+									<p class="portfolio-gallery__text">Strona internetowa</p>
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a class="portfolio-gallery__images-box" href="#">
+								<div class="portfolio-gallery__overlay-box">
+									<img src="./images/img-portfolio7.jpg" alt="image of magazine" width="370" height="294" />
+									<div class="portfolio-gallery__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo voluptate harum possimus non
+											sint architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, porro! Similique
+											neque architecto eaque ab.
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-gallery__text-box">
+									<h3 class="portfolio-gallery__tittle">Magazyn Limited Edition</h3>
+									<p class="portfolio-gallery__text">Dizajn</p>
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a class="portfolio-gallery__images-box" href="#">
+								<div class="portfolio-gallery__overlay-box">
+									<img src="./images/img-portfolio8.jpg" alt="image of label" width="370" height="294" />
+									<div class="portfolio-gallery__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo voluptate harum possimus non
+											sint architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, porro! Similique
+											neque architecto eaque ab.
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-gallery__text-box">
+									<h3 class="portfolio-gallery__tittle">Projekt LAB</h3>
+									<p class="portfolio-gallery__text">Marketing</p>
+								</div>
+							</a>
+						</li>
+
+						<li>
+							<a class="portfolio-gallery__images-box" href="#">
+								<div class="portfolio-gallery__overlay-box">
+									<img src="./images/img-portfolio1.jpg" alt="image of website" width="370" height="294" />
+									<div class="portfolio-gallery__overlay">
+										<p>
+											Lorem ipsum dolor sit, amet consectetur adipisicing elit. Explicabo voluptate harum possimus non
+											sint architecto! Lorem ipsum dolor sit, amet consectetur adipisicing elit. At, porro! Similique
+											neque architecto eaque ab.
+										</p>
+									</div>
+								</div>
+								<div class="portfolio-gallery__text-box">
+									<h3 class="portfolio-gallery__tittle">Growing Business</h3>
+									<p class="portfolio-gallery__text">Aplikacja</p>
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="container footer__container">
+				<div>
+					<a class="logo logo--footer-margin" href="./index.html">
+						<span>Web</span>
+						<span class="logo--footer-color">Studio</span>
+					</a>
+					<address>
+						<ul>
+							<li>
+								<a
+									class="footer__adress-text"
+									href="https://goo.gl/maps/CgjjjS2WBtp8LF2a7"
+									target="_blank"
+									rel="noopener nofollow"
+								>
+									m. Warszawa, Aleja Jerozolimska 21
+								</a>
+							</li>
+							<li>
+								<a class="footer__adress-text" href="mailto:info@devstudio.com">info@devstudio.com</a>
+							</li>
+							<li>
+								<a class="footer__adress-text footer__adress-text--nomargin" href="tel:48111111111">+48 111 111 111</a>
+							</li>
+						</ul>
+					</address>
+				</div>
+				<div class="footer__social-container">
+					<h3 class="visually-hidden">Social</h3>
+					<p class="footer__title">dołącz do nas</p>
+					<ul class="footer__social-box">
+						<li>
+							<a
+								class="footer__social-icon-bg"
+								href="https://www.instagram.com/"
+								target="_blank"
+								rel="noopener nofollow noreferrer"
+							>
+								<svg class="footer__social-icon">
+									<use href="./images/icons.svg#icon-instagram"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a
+								class="footer__social-icon-bg"
+								href="https://www.twitter.com/"
+								target="_blank"
+								rel="noopener nofollow noreferrer"
+							>
+								<svg class="footer__social-icon"><use href="./images/icons.svg#icon-twitter"></use></svg>
+							</a>
+						</li>
+
+						<li>
+							<a
+								class="footer__social-icon-bg"
+								href="https://www.facebook.com/"
+								target="_blank"
+								rel="noopener nofollow noreferrer"
+							>
+								<svg class="footer__social-icon">
+									<use href="./images/icons.svg#icon-facebook"></use>
+								</svg>
+							</a>
+						</li>
+						<li>
+							<a
+								class="footer__social-icon-bg"
+								href="https://pl.linkedin.com/"
+								target="_blank"
+								rel="noopener nofollow noreferrer"
+							>
+								<svg class="footer__social-icon">
+									<use href="./images/icons.svg#icon-linkedin"></use>
+								</svg>
+							</a>
+						</li>
+					</ul>
+				</div>
+				<div class="footer__news-container">
+					<h3 class="visually-hidden">e-mail input</h3>
+					<p class="footer__title">zapisz się do newslettera</p>
+					<form class="footer__news-box" name="newsletter_form" autocomplete="on">
+						<label>
+							<input class="footer__news-label" type="email" name="mail" placeholder="E-mail" required />
+						</label>
+						<button class="footer__news-btn" type="submit">
+							Zapisz się
+							<svg class="footer__news-icon-send"><use href="./images/icons.svg#icon-send"></use></svg>
+						</button>
+					</form>
+				</div>
+			</div>
+		</footer>
+		<script src="./js/modal.js"></script>
+	</body>
+</html>

@@ -1,0 +1,22 @@
+@use "./utils/vars";
+
+@import "../sass/utils/base";
+@import "../sass/utils/container";
+@import "../sass/utils/logo";
+@import "../sass/utils/page-header";
+@import "../sass/utils/visually-hidden";
+@import "../sass/utils/is-hidden";
+@import "../sass/utils/backdrop";
+
+@import "../sass/components/navigation";
+@import "../sass/components/footer";
+
+@import "../sass/components/hero";
+@import "../sass/components/modal";
+@import "../sass/components/advantages";
+@import "../sass/components/destiny";
+@import "../sass/components/team";
+@import "../sass/components/clients";
+
+@import "../sass/components/portfolio-filters";
+@import "../sass/components/portfolio-gallery";

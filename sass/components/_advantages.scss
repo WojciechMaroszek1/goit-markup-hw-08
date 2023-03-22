@@ -1,0 +1,37 @@
+@import "../utils/vars";
+
+.advantages {
+	display: flex;
+	align-items: center;
+	gap: 30px;
+}
+.advantages__text-box {
+	width: 270px;
+	height: auto;
+}
+.advantages__text {
+	line-height: 1.71;
+	color: $imagesFontColor;
+	letter-spacing: 0.03em;
+}
+.advantages__tittle {
+	font-weight: 700;
+	line-height: 1.14;
+	text-transform: uppercase;
+	letter-spacing: 0.03em;
+	margin-bottom: 10px;
+	font-size: 14px;
+}
+.advantages__icon {
+	width: 70px;
+	height: 70px;
+}
+.advantages__icon-box {
+	background: $filtersBackgroundColor;
+	border-radius: 4px;
+	margin-bottom: 30px;
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
