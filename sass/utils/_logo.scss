@@ -1,5 +1,4 @@
 @import "../utils/vars";
-
 .logo {
 	font-family: $logoFont;
 	text-decoration: none;
@@ -13,6 +12,15 @@
 
 	&:focus {
 		outline: 2px dashed $mainBlueColor;
+	}
+
+	@media screen and (max-width: 767px) {
+		justify-content: center;
+	}
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		justify-content: center;
+		align-items: center;
+		margin-left: 75px;
 	}
 }
 

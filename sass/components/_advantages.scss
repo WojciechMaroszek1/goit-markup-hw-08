@@ -1,14 +1,28 @@
 @import "../utils/vars";
-
 .advantages {
 	display: flex;
 	align-items: center;
 	gap: 30px;
+
+	@media screen and (max-width: 767px) {
+		flex-direction: column;
+	}
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		flex-wrap: wrap;
+	}
 }
 .advantages__text-box {
-	width: 270px;
+	width: 450px;
 	height: auto;
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		width: 354px;
+	}
+
+	@media screen and (min-width: 1200px) {
+		width: 270px;
+	}
 }
+
 .advantages__text {
 	line-height: 1.71;
 	color: $imagesFontColor;
@@ -17,6 +31,7 @@
 .advantages__tittle {
 	font-weight: 700;
 	line-height: 1.14;
+	text-align: center;
 	text-transform: uppercase;
 	letter-spacing: 0.03em;
 	margin-bottom: 10px;

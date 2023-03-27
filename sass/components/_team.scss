@@ -1,22 +1,41 @@
 @import "../utils/vars";
-
 .team {
 	background-color: $filtersBackgroundColor;
 }
 .team__container {
 	display: flex;
+	flex-direction: column;
 	gap: 30px;
+	@media screen and (min-width: 768px) {
+		flex-direction: row;
+		flex-wrap: wrap;
+	}
+	@media screen and (min-width: 1200px) {
+		flex-direction: row;
+	}
 }
 .team__card {
 	background-color: $mainBackgroundColor;
-	width: 270px;
+	width: 450px;
 	box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.2);
 	border-radius: 0px 0px 4px 4px;
+	@media screen and (min-width: 768px) {
+		width: 354px;
+	}
+	@media screen and (min-width: 1200px) {
+		width: 270px;
+	}
 }
 .team__card-text-box {
-	width: 270px;
+	width: 450px;
 	text-align: center;
 	padding: 30px 0;
+	@media screen and (min-width: 768px) {
+		width: 354px;
+	}
+	@media screen and (min-width: 1200px) {
+		width: 270px;
+	}
 }
 
 .team__card-tittle {

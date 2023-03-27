@@ -1,29 +1,82 @@
 @import "../utils/vars";
+@media screen and (max-width: 1199px) {
+	.destiny {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		border: 0;
+		padding: 0;
+		white-space: nowrap;
+		clip-path: inset(100%);
+		clip: rect(0 0 0 0);
+		overflow: hidden;
+	}
+	.destiny__card-container {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		border: 0;
+		padding: 0;
+		white-space: nowrap;
+		clip-path: inset(100%);
+		clip: rect(0 0 0 0);
+		overflow: hidden;
+	}
+	.destiny__card-image-box {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		border: 0;
+		padding: 0;
+		white-space: nowrap;
+		clip-path: inset(100%);
+		clip: rect(0 0 0 0);
+		overflow: hidden;
+	}
 
-.destiny {
-	padding-top: 0px;
-}
-.destiny__card-container {
-	display: flex;
-	flex-direction: row;
-	gap: 30px;
-}
-.destiny__card-image-box {
-	position: relative;
+	.destiny__card-text {
+		position: absolute;
+		width: 1px;
+		height: 1px;
+		margin: -1px;
+		border: 0;
+		padding: 0;
+		white-space: nowrap;
+		clip-path: inset(100%);
+		clip: rect(0 0 0 0);
+		overflow: hidden;
+	}
 }
 
-.destiny__card-text {
-	font-weight: 700;
-	color: $mainBackgroundColor;
-	line-height: 1.14em;
-	letter-spacing: 0.03em;
-	text-transform: uppercase;
-	position: absolute;
-	bottom: 0;
-	width: 100%;
-	background-color: rgba(47, 48, 58, 0.8);
-	height: 70px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+@media screen and (min-width: 1200px) {
+	.destiny {
+		padding-top: 0px;
+	}
+	.destiny__card-container {
+		display: flex;
+		flex-direction: row;
+		gap: 30px;
+	}
+	.destiny__card-image-box {
+		position: relative;
+	}
+
+	.destiny__card-text {
+		font-weight: 700;
+		color: $mainBackgroundColor;
+		line-height: 1.14em;
+		letter-spacing: 0.03em;
+		text-transform: uppercase;
+		position: absolute;
+		bottom: 0;
+		width: 100%;
+		background-color: rgba(47, 48, 58, 0.8);
+		height: 70px;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 }
