@@ -1,14 +1,37 @@
 @import "../utils/vars";
+.mobile__menu {
+}
 .mobile__mobile-menu {
-	padding: 0;
-	margin: 0;
 	list-style: none;
 
-	& .mobile__link {
-		display: block;
-		padding: 10px;
-		color: #fff;
-		text-decoration: none;
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	align-items: flex-start;
+	margin-top: 48px;
+	margin-left: 40px;
+}
+
+.mobile__container {
+	margin-top: 10px;
+	margin-left: 276px;
+
+	@media screen and (min-width: 768px) {
+		display: none;
+	}
+}
+.mobile__link {
+	font-size: 40px;
+	font-weight: 500;
+	line-height: 47px;
+	letter-spacing: 0.02em;
+	color: $footerStudioColor;
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: $mainBlueColor;
+		transform: color;
 	}
 }
 .mobile__menu-container {
@@ -17,50 +40,39 @@
 	left: 0;
 	width: 100vw;
 	height: 100vh;
-	padding: 32px;
-	background-color: #3f51b5;
-	// z-index: 999;
+	background-color: $mainBackgroundColor;
+	z-index: 999;
 
 	transform: translateX(100%);
 	transition: transform 250ms ease-in-out;
 
-	& .mobile__is-open {
-		transform: translateX(0);
-	}
-
 	& .mobile__menu-toggle {
 		position: absolute;
-		top: 16px;
-		right: 16px;
-		color: #fff;
+		top: 10px;
+		right: 15px;
 	}
 }
+.mobile__is-open {
+	transform: translateX(0);
+}
+
 .mobile__menu-toggle {
 	min-height: 40px;
 	min-width: 40px;
-
-	padding: 0;
 	background-color: $mainBackgroundColor;
+
 	cursor: pointer;
 	border: none;
-	border-radius: 50%;
 	outline: none;
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 	&:hover,
 	&:focus {
-		background-color: rgba(0, 0, 0, 0.1);
+		fill: $mainBlueColor;
+		transform: fill;
 	}
 
 	@media (min-width: 768px) {
-		display: none;
-	}
-}
-
-.mobile__container {
-	margin-top: 10px;
-	margin-bottom: 10px;
-	margin-left: 276px;
-	@media screen and (min-width: 768px) {
 		display: none;
 	}
 }
@@ -69,15 +81,35 @@
 	width: 40px;
 	height: 40px;
 	color: $footerStudioColor;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
-.mobile__menu {
-	& .mobile__link {
-		padding: 10px;
-		color: inherit;
-		text-decoration: none;
+
+.mobile__contact-list {
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+	align-items: flex-start;
+	margin-top: 302px;
+	margin-left: 40px;
+}
+.mobile__contact-text {
+	color: $imagesFontColor;
+	font-weight: 500;
+	font-size: 34px;
+	line-height: 40px;
+	letter-spacing: 0.02em;
+	transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+	&:hover,
+	&:focus {
+		color: $mainBlueColor;
+		transform: color;
 	}
-	& .mobile__link:hover,
-	& .mobile__link:focus {
-		text-decoration: underline;
-	}
+}
+.mobile__contact-text--size {
+	font-size: 24px;
+	line-height: 28px;
+	letter-spacing: 0.02em;
 }
