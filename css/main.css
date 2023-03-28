@@ -844,6 +844,13 @@ textarea {
     padding-bottom: 198px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero-background-480.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero-background-480.jpg");
+    background-size: 480px 400px;
+  }
+}
+@media screen and (max-width: 767px) and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero-backgroun-480d@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero-backgroun-480d@2x.jpg");
   }
 }
 @media screen and (min-width: 768px) and (max-width: 1199px) {
@@ -854,6 +861,13 @@ textarea {
     padding-bottom: 118px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero-background-768.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero-background-768.jpg");
+    background-size: 768px 400px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1199px) and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero-background-768@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero-background-768@2x.jpg");
   }
 }
 @media screen and (min-width: 1200px) {
@@ -864,6 +878,13 @@ textarea {
     padding-bottom: 200px;
     background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero-background.jpg");
     background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero-background.jpg");
+    background-size: 1600px 600px;
+  }
+}
+@media screen and (min-width: 1200px) and (min-device-pixel-ratio: 2) {
+  .hero {
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.4))), url("../images/hero-background@2x.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url("../images/hero-background@2x.jpg");
   }
 }
 
