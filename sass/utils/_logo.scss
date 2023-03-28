@@ -4,7 +4,7 @@
 	text-decoration: none;
 	font-weight: 700;
 	font-size: 26px;
-	line-height: 1.19;
+	line-height: 1.19em;
 	color: $mainBlueColor;
 	letter-spacing: 0.03em;
 	display: flex;
@@ -15,12 +15,10 @@
 	}
 
 	@media screen and (max-width: 767px) {
-		justify-content: center;
-	}
-	@media screen and (min-width: 768px) and (max-width: 1199px) {
-		justify-content: center;
-		align-items: center;
-		margin-left: 75px;
+		margin-top: 16px;
+		margin-bottom: 16px;
+		font-size: 24px;
+		line-height: 1.07em;
 	}
 }
 
@@ -29,6 +27,15 @@
 }
 .logo--footer-margin {
 	margin-bottom: 20px;
+	@media screen and (min-width: 768px) and (max-width: 1199px) {
+		justify-content: center;
+		align-items: center;
+		margin-left: 75px;
+	}
+	@media screen and (max-width: 767px) {
+		justify-content: center;
+		align-items: center;
+	}
 }
 .logo--footer-color {
 	color: $mainBackgroundColor;
